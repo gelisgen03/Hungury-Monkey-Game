@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTU Games</title> 
+    <style display: inline;>
+        
+        canvas {
+            border: 5px solid black;
+        }
+        .container {
+            display: flex; /* Flexbox kullanarak içerikleri yatayda hizaladım */
+            padding: 0 0 1% 0;
+            justify-content: center;
+            
+        }
+        .generalContainer{
+            display: flex;
+            justify-content: center;
+            margin: 0 0 0 0;
+            
+             
+            
+        }
+        .box {
+        width: 100px;
+        height: 65px;
+        border: 5px solid rgb(1, 1, 1);
+        display: block;
+        margin: 1px;
+        text-shadow: 2;
+        text-align: center;
+        background-color:darkgrey;
+        }
+        .metin{
+            background-color: rgb(116, 233, 38);
+            margin: 0 0 0 0;  
+        }
+        .box2{
+            display: block;
+            width: 250px;
+            height: 500px;
+            border: 5px solid rgb(5, 5, 5);
+            justify-content: last baseline;
+            margin: 0px 30px 0px 0px  ;
+            background-color: aqua;
+
+        }
+    </style>
+</head>
+<body style="background-color: rgb(234, 122, 85);">
+    
+
+    <center><h2>AÇ ŞEMPANZE OYUNUNA HOŞGELDİNİZ</h2></center>     
+    <div class="generalContainer">
+        <div class="box2">
+            <img src="btüLogo.png" width="210" height="125" >
+            <h4>OYUN MODLARI</h4>
+            <h5>Against to Time:</h5>
+            <p>* 1 dk Süre içerisinde max skora ulaş ! </p>
+            <h5>Normal:</h5>
+            <p>* Süre sınırı olmadan sınırsız eğlence ile max skora ulaş !</p>
+
+
+            
+            <br><br>    
+            <img src="slogansiyah.png" width="200" height="70" >
+        </div>
+            <div style="background-color:aquamarine;" width="700" height="520">
+             <canvas  id="gameCanvas" width="1000" height="520"></canvas>
+             </div>
+        
+        <div style="margin: 0px 0px 0px 30px ;" class="box2">
+            <img src="btüLogo.png" width="210" height="125" >
+            <h4>OYNANIŞ</h4>
+            <p>1)MOD SELECT Menüsünden Oyun modunu seç.</p>
+            <p>2)Üst Karakter yada mouse ile maymunu zıplat.</p>
+            <p>3)Dilersen sağ ve sol karakter tuşu ile maymunu yatay eksende hareket ettirebilirsin.</p>
+            
+
+            <br><br><br>
+            <img src="slogansiyah.png" width="200" height="70" >
+        </div>
+    </div>
+    
+    
+    <div class="container">
+        <div class="box" style="width: 150px;" > 
+            <H4 class="metin">MODE SELECT</H4>
+            <button style="background-color: rgb(71, 110, 209); margin: 1px;" onclick="startTimeGame()"><b>AGAINST TIME</b></button>
+            <br> 
+            <button style="background-color: rgb(209, 202, 71); margin: 1px;" onclick="startNormalGame()"><b>NORMAL</b></button>
+        </div>
+        <div class="box" > 
+            <H4 class="metin">SCORE</H4>
+            <h3 id="currentHtmlScore" >0</h3>
+            
+        </div>
+        <div class="box" > 
+            <H4 class="metin">TIMER</H4> 
+            <h3 id="gameTimer" >00:00</h3>
+        </div>
+    
+        <div class="box" > 
+            <H4 class="metin">PLAYER</H4>
+            <h3 id="playerName" >-</h3>
+        </div>
+
+        <div class="box" style="width: 150px;"  > 
+            <H4 class="metin" >GAME</H4>
+            <h3 id="mod" >-</h3>
+        </div>
+
+        <div class="box" style="width: 150px;" > 
+            <H4 class="metin" >BEST SCORE</H4>
+            <h3 id="willCome" >Coming Soon</h3>
+        </div>
+ 
+    </div>
+    
+
+    <script src="game.js"></script>
+  
+</body>
+</html>
