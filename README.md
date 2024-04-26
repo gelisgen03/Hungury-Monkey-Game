@@ -26,4 +26,10 @@ Have fun player :)
 * If the monkey falls to the ground, the game is over.
 * If you run out of time in Against to time mode, the game is over.
 
+### **Game Photos**
+![photo2](https://github.com/gelisgen03/HunguryMonkey/assets/113345673/c6e98821-1454-4a28-9ffc-90c1c0af880d)
+![photo3](https://github.com/gelisgen03/HunguryMonkey/assets/113345673/e7ba6473-7232-4eaf-91e3-bb19c5a2083d)
+![photo4](https://github.com/gelisgen03/HunguryMonkey/assets/113345673/fcd1e4bd-9546-4a19-9963-72e51cc35157)
+![photo1](https://github.com/gelisgen03/HunguryMonkey/assets/113345673/947b5310-45e3-445b-b9b1-940629dfa775)
+
 
