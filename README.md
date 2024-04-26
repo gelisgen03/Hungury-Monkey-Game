@@ -5,11 +5,11 @@
 Hello Everyone
 * I designed a web game using HTML, CSS and Java Script. This game basically involves collecting objects with inputs and getting a score.
 * Details about the game are given below.
-Have fun player :)
+
 
 ### **Gameplay**
 * The gameplay of the monkey game is quite simple.
-* When you access the game website, you must first select the game mode (be patient, I will explain the modes ).
+* When you access the game website, you must first select the game mode (be patient, I will explain the modes. :) )
 * You must then confirm the alert messages displayed.
 * Here you are ready for the Monkey game!
 * After that, all you have to do is make the monkey jump with the up arrow key or mouse click.
@@ -32,4 +32,5 @@ Have fun player :)
 ![photo4](https://github.com/gelisgen03/HunguryMonkey/assets/113345673/fcd1e4bd-9546-4a19-9963-72e51cc35157)
 ![photo1](https://github.com/gelisgen03/HunguryMonkey/assets/113345673/947b5310-45e3-445b-b9b1-940629dfa775)
 
+#### Enjoy Gamer :)
 
